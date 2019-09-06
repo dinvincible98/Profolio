@@ -5,32 +5,32 @@
 ## Jekyll overview
 
 ### Built with Jekyll
+What is Jekyll (taken from Jekyll's [website](http://jekyllrb.com/docs/home/)).
+
 Jekyll is a simple, blog-aware, static site generator. It takes a template
 directory containing raw text files in various formats, runs it through Markdown
 and Liquid converters, and spits out a complete, ready-to-publish static website
 suitable for serving with your favorite web server. Jekyll also happens to be
 the engine behind GitHub Pages, which means you can use Jekyll to host your
-project's page, blog, or website from GitHub's servers for free (taken from
-Jekyll's website: http://jekyllrb.com/docs/home/).
+project's page, blog, or website from GitHub's servers for free. 
 
 ### Get your workstation set up
 To test your website locally, you will need the following packages:
 
 * <a href="https://www.ruby-lang.org/en/downloads/">Ruby</a>
 * <a href="http://rubygems.org/pages/download">RubyGems</a>
-* <a href="http://nodejs.org">NodeJS</a>
 * <a href="http://jekyllrb.com/docs/installation">Jekyll</a>
 
-To install from `apt-get`, you can just run
+To install from `apt`, run
 
 ```
-sudo apt-get install ruby ruby-dev nodejs jekyll
+sudo apt install ruby ruby-dev jekyll
 ```
 
 ### Local previewing
 
 You'll first need a Jekyll site. If you are interested in using this template,
-you should clone this repo (or create a Fork of this repo and clone that copy).
+you should clone this repository.
 Then change directories into the root of the Jekyll site. For example,
 ```
 cd msr-student-template
@@ -48,7 +48,7 @@ View the site in your browser at
 ```
 localhost:4000/msr-student-template/
 ```
-
+Note: The trailing ```/``` character after ```msr-student-template``` is crucial.
 
 
 ## File structure
