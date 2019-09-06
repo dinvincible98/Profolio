@@ -452,4 +452,5 @@ you use Sublime, check out
 [Sublime Text Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview)
 plugin.
 
-
+You can find jekyll themes and more information on the jekyll website
+[Jekyll Resources](https://jekyllrb.com/resources/)  
