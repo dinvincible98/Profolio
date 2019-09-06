@@ -27,36 +27,6 @@ To install from `apt-get`, you can just run
 sudo apt-get install ruby ruby-dev nodejs jekyll
 ```
 
-#### Older Ubuntu Issues
-
-On older versions of Ubuntu (e.g. 14.04), the versions of `ruby` and `jekyll`
-that are on `apt-get` are a bit out of date. Thus even, if you install all of
-the packages from `apt-get` using the above command, you are likely to get
-errors when running commands in the [Local previewing](#local-previewing)
-section below. If you see errors about the `--watch` variable when running
-`jekyll build --watch`, run the following commands to use `rvm` (Ruby Version
-Manager) to install a new version of `ruby` and `jekyll`.
-
-```shell
-1 $  sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison \
-      libffi-dev curl icedtea-7-jre-jamvm nodejs nodejs-dev
-2 $  curl -sSL https://rvm.io/mpapis.asc | gpg --import -
-3 $  curl -L https://get.rvm.io | bash -s stable
-4 $  source ~/.rvm/scripts/rvm
-5 $  echo "source ~/.rvm/scripts/rvm" >> ~/.bashrc
-6 $  rvm install ruby --latest
-7 $  echo "gem: --no-ri --no-rdoc" > ~/.gemrc
-8 $  gem update --system
-9 $  gem install jekyll
-```
-* line 1 installs dependencies for `rvm`
-* lines 2-5 configure your environment to use `ruby` versions installed from
-`rvm` instead of from `apt-get`
-* line 6 updates `rvm` itself
-* line 7 sets `gem` to not install documentation locally (this is optional)
-* line 8 updates `gem`
-* line 9 installs the latest `jekyll`
-
 ### Local previewing
 
 You'll first need a Jekyll site. If you are interested in using this template,
