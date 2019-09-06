@@ -262,14 +262,10 @@ sass --watch style.scss:style.css
 
 As you edit the SCSS file, the CSS file will be automatically updated!
 
-To install SASS you can either use `apt-get` or `gem`:
+To install SASS you can either use `apt`:
 
 ```bash
-sudo apt-get install ruby-sass
-```
-or
-```bash
-gem install sass
+sudo apt install ruby-sass
 ```
 
 ### Changing site metadata
