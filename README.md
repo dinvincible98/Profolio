@@ -97,21 +97,10 @@ Note: The trailing ```/``` character after ```msr-student-template``` is crucial
 ## More on how Jekyll works
 
 ### The Jekyll engine
-First, if you look inside the \_site directory, you'll see that no directories
-or files there begin with an underscore (\_). The contents of that directory are
-the end result of Jekyll's processing engine. All of the files and directories
-in the root directory of the repository that do begin with an underscore, on the
-other hand, are "raw". They either include markup that will be included within
-pages of the final site or they contain markdown and "Front Matter" (which I'll
-explain later) that will be converted into markup by Jekyll's engine. One of the
-two commands that you need to run in order to host the site on a local server:
-```
-jekyll build --watch
-```
-runs that engine, processing and reprocessing the "raw" files every time you
-make a change to a file. The files and directories in the root directory of the
-repository that _don't_ begin with an underscore are ignored by Jekyll and will
-remain the exact same in the _site directory.
+1. ```jekyll build``` processes the files and folders in the root directory, generating a website that it places in the \_site directory.
+2. Folders and files in root that begin with an \_ are processed by the jekyll engine and converted to html.
+3. Files that do not start with an \_ and do not begin with a "Front Matter" block are copied directly into _site see (```public``` and ```README.md```)
+4. Files that do not start with an \_ and do begin with a "Front Matter" block contain markdown and they are processed by jekyll and their outputs are placed in the the \_site directory.
 
 ### Front matter
 Any file that contains a YAML front matter block will be processed by Jekyll as
