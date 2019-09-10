@@ -101,7 +101,7 @@ Note: The trailing ```/``` character after ```msr-student-template``` is crucial
 2. Folders and files in root that begin with an \_ are processed by the jekyll engine and converted to html.
 3. Files that do not start with an \_ and do not begin with a "Front Matter" block are copied directly into _site see (```public``` and ```README.md```)
 4. Files that do not start with an \_ and do begin with a "Front Matter" block contain markdown and they are processed by jekyll and their outputs are placed in the the \_site directory.
-
+5. I encourage you to look examine and compare the generated files in the _site directory to the source files and see how they correspond to get a feel for how Jekyll works
 ### Front matter
 Any file that contains a YAML front matter block will be processed by Jekyll as
 a special file. The front matter must be the first thing in the file and must
