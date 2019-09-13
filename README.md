@@ -446,3 +446,5 @@ You can find jekyll themes and more information on the jekyll website
 
 A tutorial on getting started is [here](http://jmcglone.com/guides/github-pages/)
 More about using jekyll with github pages is [here](https://jekyllrb.com/docs/github-pages/)
+
+[Help for Github Pages](https://help.github.com/en#github-pages-basics)
