@@ -442,4 +442,7 @@ you use Sublime, check out
 plugin.
 
 You can find jekyll themes and more information on the jekyll website
-[Jekyll Resources](https://jekyllrb.com/resources/)  
+[Jekyll Resources](https://jekyllrb.com/resources/)
+
+A tutorial on getting started is [here](http://jmcglone.com/guides/github-pages/)
+More about using jekyll with github pages is [here](https://jekyllrb.com/docs/github-pages/)
